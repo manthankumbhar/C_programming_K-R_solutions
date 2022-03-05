@@ -18,5 +18,6 @@ int main()
         if (char_count == ' ')
             ++num_spaces;
     }
+
     printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", num_spaces, num_tabs, num_lines);
 }
